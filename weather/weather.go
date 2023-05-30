@@ -14,7 +14,7 @@ const (
 	Unknown
 )
 
-// ToString returns the corresponding weather as a string
+// ToString returns the corresponding weather as a string test
 func (p Prediction) ToString() string {
 	return [...]string{"Sunny", "Rain", "Overcast", "Snow", "Unknown"}[p]
 }
